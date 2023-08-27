@@ -22,6 +22,14 @@
             color: white;
             text-align: center;
             padding: 1rem 0;
+            display: flex;           /* Flexbox를 사용하여 h1과 이미지를 나란히 배치합니다. */
+            justify-content: center; /* 중앙 정렬 */
+            align-items: center; 
+        }
+                #headerImage {
+            margin-left: 20px;       /* h1과의 간격 조정 */
+            width: 100px;            /* 이미지 너비 */
+            height: 143px;           /* 이미지 높이 */
         }
 
         nav ul {
@@ -68,8 +76,10 @@
 </head>
 <body>
     <header>
+    <header>
         <h1>나의 길드 사이트</h1>
-    </header>
+        <img src="club_logo_resized_aspect_ratio.png" alt="Guild Logo" id="headerImage">
+    </header>    </header>
     
     <nav>
         <ul>
